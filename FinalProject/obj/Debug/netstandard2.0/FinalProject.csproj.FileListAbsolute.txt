@@ -1,0 +1,15 @@
+C:\Users\invin\source\repos\FinalProject\FinalProject\bin\Debug\netstandard2.0\FinalProject.deps.json
+C:\Users\invin\source\repos\FinalProject\FinalProject\bin\Debug\netstandard2.0\FinalProject.dll
+C:\Users\invin\source\repos\FinalProject\FinalProject\bin\Debug\netstandard2.0\ref\FinalProject.dll
+C:\Users\invin\source\repos\FinalProject\FinalProject\bin\Debug\netstandard2.0\FinalProject.pdb
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.csprojAssemblyReference.cache
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\NavPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\TempAdminPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.AssemblyInfoInputs.cache
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.AssemblyInfo.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.dll
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\ref\FinalProject.dll
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.pdb
