@@ -7,9 +7,12 @@
              x:Class="FinalProject.TempAdminPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Temp Admin Page" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Please Select an option" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
+            <Button Text="Make An event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="" />
+            <Button Text="Cancel an Event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="" />
+            <Button Text="Reschedule an Event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

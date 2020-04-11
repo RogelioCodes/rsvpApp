@@ -13,3 +13,4 @@ C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\X
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.dll
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\ref\FinalProject.dll
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.pdb
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\TempClientPage.xaml.g.cs

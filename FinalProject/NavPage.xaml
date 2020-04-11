@@ -4,15 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundColor="Beige"
+             BackgroundColor="DarkBlue"
              x:Class="FinalProject.NavPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to OrgAttend!" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" FontSize="25"/>
-            <Label Text="you an Admin or a client? " VerticalOptions="Start" HorizontalOptions="CenterAndExpand"  FontSize="25"/>
+            <Label Text="Welcome to OrgAttend!" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" FontSize="25" TextColor="White"/>
+            <Label Text="you an Admin or a client? " VerticalOptions="Start" HorizontalOptions="CenterAndExpand"  FontSize="25" TextColor="White"/>
             <Image Source="https://d1i4t8bqe7zgj6.cloudfront.net/12-04-2019/t_a0f2857ef2a04a1ba5be0a03c6accf06_name_1___1920x1080___30p_00_00_09_20_Still014.jpg"/>
             <Button Text="I am an Admin" VerticalOptions="Center" HorizontalOptions="Center" Clicked="AdminClick" />
             <Button Text="I am a Client" VerticalOptions="Center" HorizontalOptions="Center" Clicked="ClientClick"/>
+           
             
         </StackLayout>
     </ContentPage.Content>

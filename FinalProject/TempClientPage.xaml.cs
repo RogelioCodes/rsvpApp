@@ -10,19 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace FinalProject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class NavPage : ContentPage
+    public partial class TempClientPage : ContentPage
     {
-        public NavPage()
+        public TempClientPage()
         {
             InitializeComponent();
         }
-        void AdminClick(object sender, System.EventArgs e)
+        protected override void OnAppearing()
         {
-            Navigation.PushAsync(new TempAdminPage());
-        }
-        void ClientClick(object sender, System.EventArgs e)
-        {
-            Navigation.PushAsync(new TempClientPage());
+            DisplayAlert("Welcome!", "This is the Client page.", "Understood");
         }
     }
 }
