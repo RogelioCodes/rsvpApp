@@ -14,3 +14,6 @@ C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\F
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\ref\FinalProject.dll
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.pdb
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\TempClientPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\CancelEventPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\MakeEventPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\RescheduleEventPage.xaml.g.cs

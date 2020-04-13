@@ -22,9 +22,19 @@ namespace FinalProject
             DisplayAlert("Welcome!", "This is the admin page.", "Understood");
         }
 
-        private void tempAdminclick(object sender, EventArgs e)
+        private void MakeEvent(object sender, EventArgs e)
         {
-            Browser.OpenAsync("https://www.youtube.com/watch?v=EQ3clCcwHFc", BrowserLaunchMode.SystemPreferred);
+            Navigation.PushAsync(new MakeEventPage());
+        }
+
+        private void CancelEvent(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CancelEventPage());
+        }
+
+        private void RescheduleEvent(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RescheduleEventPage());
         }
     }
 }
