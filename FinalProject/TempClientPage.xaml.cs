@@ -16,9 +16,14 @@ namespace FinalProject
         {
             InitializeComponent();
         }
-        protected override void OnAppearing()
+
+        private void RSVPClick(object sender, EventArgs e)
         {
-            DisplayAlert("Welcome!", "This is the Client page.", "Understood");
+            Navigation.PushAsync(new RSVPPage());
         }
+        //  protected override void OnAppearing()
+        //{
+        //  DisplayAlert("Welcome!", "This is the Client page.", "Understood");
+        //}
     }
 }

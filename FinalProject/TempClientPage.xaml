@@ -7,9 +7,9 @@
              x:Class="FinalProject.TempClientPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Temp Client Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Temp Client Page" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="RSVP for event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="RSVPClick" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

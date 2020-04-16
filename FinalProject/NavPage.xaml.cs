@@ -16,10 +16,12 @@ namespace FinalProject
         {
             InitializeComponent();
         }
-        void AdminClick(object sender, System.EventArgs e)
+
+        void AdminLoginClick(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new TempAdminPage());
+            Navigation.PushAsync(new TempAdminLoginPage());
         }
+       
         void ClientClick(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new TempClientPage());

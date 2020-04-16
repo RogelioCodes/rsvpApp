@@ -17,10 +17,10 @@ namespace FinalProject
         {
             InitializeComponent();
         }
-        protected override void OnAppearing()
-        {
-            DisplayAlert("Welcome!", "This is the admin page.", "Understood");
-        }
+       // protected override void OnAppearing()
+       // {
+       //     DisplayAlert("Welcome!", "This is the admin page.", "Understood");
+       // }
 
         private void MakeEvent(object sender, EventArgs e)
         {

@@ -7,9 +7,8 @@
              x:Class="FinalProject.MakeEventPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Make Event Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Make Event Page" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />
+            <Label Text="Will probably have some sort of calendar"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
