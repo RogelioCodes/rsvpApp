@@ -10,6 +10,7 @@ namespace FinalProject
         {
             InitializeComponent();
             MainPage = new NavigationPage(new NavPage());
+            //MainPage = new TempAdminLoginPage();
             //MainPage = new MainPage();
         }
 

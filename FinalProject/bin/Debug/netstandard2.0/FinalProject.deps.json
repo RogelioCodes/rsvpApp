@@ -9,12 +9,24 @@
     ".NETStandard,Version=v2.0/": {
       "FinalProject/1.0.0": {
         "dependencies": {
+          "FormsPinView": "2.0.0",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
         "runtime": {
           "FinalProject.dll": {}
+        }
+      },
+      "FormsPinView/2.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FormsPinView.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -65,6 +77,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FormsPinView/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-07XWaR6BBtfGArm8+i6dcxJfRzP029lAJf2njnwICCkm+zdbjfw+9cM8aAvSM0Lu/6MJmNJ69QhfkRA5qkcdIg==",
+      "path": "formspinview/2.0.0",
+      "hashPath": "formspinview.2.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

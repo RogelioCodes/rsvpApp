@@ -4,6 +4,8 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "FinalProject.Android.dll" comes first in this list. */
 		"FinalProject.Android.dll",
 		"FinalProject.dll",
+		"FormsPinView.Core.dll",
+		"FormsPinView.Droid.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

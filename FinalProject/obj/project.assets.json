@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "FormsPinView/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "lib/netstandard2.0/FormsPinView.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FormsPinView.Core.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -67,6 +79,22 @@
     }
   },
   "libraries": {
+    "FormsPinView/2.0.0": {
+      "sha512": "07XWaR6BBtfGArm8+i6dcxJfRzP029lAJf2njnwICCkm+zdbjfw+9cM8aAvSM0Lu/6MJmNJ69QhfkRA5qkcdIg==",
+      "type": "package",
+      "path": "formspinview/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "formspinview.2.0.0.nupkg.sha512",
+        "formspinview.nuspec",
+        "lib/MonoAndroid10/FormsPinView.Core.dll",
+        "lib/MonoAndroid10/FormsPinView.Droid.dll",
+        "lib/Xamarin.iOS10/FormsPinView.Core.dll",
+        "lib/Xamarin.iOS10/FormsPinView.iOS.dll",
+        "lib/netstandard2.0/FormsPinView.Core.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -561,6 +589,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "FormsPinView >= 2.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675"
@@ -608,6 +637,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "FormsPinView": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

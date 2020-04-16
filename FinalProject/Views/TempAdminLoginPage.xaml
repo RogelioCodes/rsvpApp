@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FinalProject.TempAdminLoginPage">
+    <ContentPage.Content>
+        <!--references https://www.youtube.com/watch?reload=9&v=eAZ4kPf5eTc-->
+        <StackLayout>
+            <Label Text="Please enter your admin credentials" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="20"/>
+            <Label x:Name="Lbl_Username" Text="Username" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
+            <Entry x:Name="Entry_Username" Placeholder="Enter UserName" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
+
+            <Label x:Name="Lbl_Password" Text="Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
+            <Entry x:Name="Entry_Password" Placeholder="Enter Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
+
+            <Button x:Name="Btn_Signin" Text="Sign In" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="Btn_Signin_Clicked"/>
+            <Button Text="This is placeholder until we have login functionality" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="AdminClick" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

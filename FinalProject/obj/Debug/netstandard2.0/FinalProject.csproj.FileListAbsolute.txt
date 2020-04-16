@@ -9,7 +9,6 @@ C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\N
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\TempAdminPage.xaml.g.cs
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.AssemblyInfoInputs.cache
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.AssemblyInfo.cs
-C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.dll
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\ref\FinalProject.dll
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.pdb
@@ -17,4 +16,6 @@ C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\T
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\CancelEventPage.xaml.g.cs
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\MakeEventPage.xaml.g.cs
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\RescheduleEventPage.xaml.g.cs
-C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\TempAdminLoginPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\RSVPPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\Views\TempAdminLoginPage.xaml.g.cs
