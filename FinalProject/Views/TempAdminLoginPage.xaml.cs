@@ -28,6 +28,7 @@ namespace FinalProject
             if(user.CheckPassword())
             {
                 DisplayAlert("Login", "Login Successful", "ok");
+                App.UserDatabase.SaveUser(user);
                 Navigation.PushAsync(new TempAdminPage());
             }
             else

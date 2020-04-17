@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +7,7 @@ namespace FinalProject.Model
 {
     public class User
     {
+        [PrimaryKey]
         //referenced from https://www.youtube.com/watch?reload=9&v=eAZ4kPf5eTc
         public int Id { get; set; }
         public string Username { get; set; }
