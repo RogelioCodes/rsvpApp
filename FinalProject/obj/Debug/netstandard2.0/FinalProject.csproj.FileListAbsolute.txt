@@ -17,5 +17,5 @@ C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\C
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\MakeEventPage.xaml.g.cs
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\RescheduleEventPage.xaml.g.cs
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\RSVPPage.xaml.g.cs
-C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\Views\TempAdminLoginPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp
