@@ -28,7 +28,7 @@ namespace FinalProject
             if(user.CheckPassword())
             {
                 DisplayAlert("Login", "Login Successful", "ok");
-                App.UserDatabase.SaveUser(user);
+               // App.UserDatabase.SaveUser(user); keep this commented out, it worked one day, then the next it throws an exception error that breaks the app
                 Navigation.PushAsync(new TempAdminPage());
             }
             else

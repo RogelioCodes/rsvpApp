@@ -4,11 +4,45 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             BackgroundColor="DarkGoldenrod"
              x:Class="FinalProject.MakeEventPage">
+    <!--
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Make Event Page" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />
             <Label Text="Will probably have some sort of calendar"/>
         </StackLayout>
     </ContentPage.Content>
+-->
+    <!--follows this tutorial https://www.youtube.com/watch?v=06ukwq8sxls-->
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0, 20, 0, 0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <StackLayout Margin="0,40,0,0"  HorizontalOptions="Center">
+        <Label Text="Make Event Page"
+               FontSize="Large"
+               Margin="0, 20"
+               HorizontalTextAlignment="Center"
+               />
+
+        <Label Text="Start Date:"/>
+
+        <DatePicker x:Name="startDatePicker" Format="D" Margin="30, 0, 0, 30" />
+        
+        <Label Text="End Date:" />
+
+        <DatePicker x:Name="endDatePicker" Format="D" Margin="30, 0, 0, 30" />
+
+        <Button x:Name="CheckBtn" BackgroundColor="White" Text="Check Availability :" Clicked="Handle_Clicked"/>
+        
+        <Label x:Name="resultLabel" FontAttributes="Bold" HorizontalTextAlignment="Center"
+               Text="The Selected  start date is : "/>
+
+    </StackLayout>
+
+
+
 </ContentPage>

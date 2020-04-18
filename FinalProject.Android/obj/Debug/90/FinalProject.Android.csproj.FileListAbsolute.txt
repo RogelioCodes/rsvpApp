@@ -492,3 +492,5 @@ C:\Users\invin\source\repos\FinalProject\FinalProject.Android\obj\Debug\90\andro
 C:\Users\invin\source\repos\FinalProject\FinalProject.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
 C:\Users\invin\source\repos\FinalProject\FinalProject.Android\obj\Debug\90\android\assets\System.Threading.dll
 C:\Users\invin\source\repos\FinalProject\FinalProject.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
+C:\Users\invin\source\repos\FinalProject\FinalProject.Android\obj\Debug\90\res\bg1.jpg
+C:\Users\invin\source\repos\FinalProject\FinalProject.Android\obj\Debug\90\res\bg2.jpg

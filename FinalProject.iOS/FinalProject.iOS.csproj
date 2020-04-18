@@ -139,5 +139,10 @@
       <Name>FinalProject</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BundleResource Include="Resources\bg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg2.jpg" />
+  </ItemGroup>
 </Project>
