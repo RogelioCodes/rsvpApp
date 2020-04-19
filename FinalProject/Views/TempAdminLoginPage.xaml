@@ -6,17 +6,26 @@
              BackgroundColor="DarkGoldenrod"
              mc:Ignorable="d"
              x:Class="FinalProject.TempAdminLoginPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key ="labelStyle" TargetType= "Label" >
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <!--references https://www.youtube.com/watch?reload=9&v=eAZ4kPf5eTc-->
         <StackLayout>
-            <Label Text="Please enter your admin credentials" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="20"/>
+            <Label Text="Please enter your admin credentials" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" Style="{StaticResource  labelStyle}"/>
             <Label x:Name="Lbl_Username" Text="Username" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
             <Entry x:Name="Entry_Username" Placeholder="Enter UserName" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
 
-            <Label x:Name="Lbl_Password" Text="Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="Lbl_Password" Text="Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" Style="{StaticResource  labelStyle}" />
             <Entry x:Name="Entry_Password" Placeholder="Enter Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
 
-            <Button x:Name="Btn_Signin" Text="Sign In" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="Btn_Signin_Clicked"/>
+            <Button x:Name="Btn_Signin" Text="Sign In" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="AdminClick"/>
             <Button Text="This is placeholder until we have login functionality" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="AdminClick" />
         </StackLayout>
     </ContentPage.Content>
