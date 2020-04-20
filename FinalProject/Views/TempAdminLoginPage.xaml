@@ -25,8 +25,10 @@
             <Label x:Name="Lbl_Password" Text="Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" Style="{StaticResource  labelStyle}" />
             <Entry x:Name="Entry_Password" Placeholder="Enter Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
 
-            <Button x:Name="Btn_Signin" Text="Sign In" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="AdminClick"/>
-            <Button Text="This is placeholder until we have login functionality" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="AdminClick" />
+            <!--When Btn_signin_Clicked works, it saves the user credentials and will throw an error message if either the username or password is empty-->
+            <Button x:Name="Btn_Signin" Text="Sign In" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="Btn_Signin_Clicked"/> 
+            <!--<Button x:Name="Btn_Signin" Text="Sign In" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="AdminClick"/>-->
+            <!-- <Button Text="This is placeholder until we have login functionality" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="AdminClick" />-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
