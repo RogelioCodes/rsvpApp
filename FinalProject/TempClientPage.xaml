@@ -5,11 +5,21 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="FinalProject.TempClientPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key ="labelStyle" TargetType= "Label" >
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Temp Client Page" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" />
-
-            <Button Text="RSVP for event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="RSVPClick" />
+            <Label Text="Temp Client Page" VerticalOptions="StartAndExpand"  HorizontalOptions="CenterAndExpand"  Style="{StaticResource  labelStyle}" />
+            <Button Text="RSVP for event" VerticalOptions="StartAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="RSVPClick" />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

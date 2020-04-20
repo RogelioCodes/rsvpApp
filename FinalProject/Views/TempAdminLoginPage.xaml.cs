@@ -22,7 +22,8 @@ namespace FinalProject
             DisplayAlert("Login", "Login Successful", "ok");
             Navigation.PushAsync(new TempAdminPage());
         }
-        // this worked one day, then the next it throws an exception error that breaks the app albeit occassionally
+        // this worked one day, then the next it didn't
+        //To clarify, this button function sometimes throws an exception error that breaks the app
         private void Btn_Signin_Clicked(object sender, EventArgs e)
         {
             User user = new User(Entry_Username.Text, Entry_Password.Text);
