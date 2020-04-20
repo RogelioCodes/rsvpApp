@@ -8,16 +8,27 @@
              
              BackgroundColor="White"
              x:Class="FinalProject.NavPage">
+<<<<<<< HEAD
 
     <ContentPage.Resources>
         <!--NOTE: TempAdminLoginPage.xaml is in the views folder-->
 
+=======
+    
+    <ContentPage.Resources>
+        <!--NOTE: TempAdminLoginPage.xaml is in the views folder-->
+        
+>>>>>>> master
         <ResourceDictionary>
             <Style x:Key ="labelStyle" TargetType= "Label" >
                 <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="FontSize" Value="25"/>
 
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> master
             </Style>
 
             <Style x:Key ="buttonStyle" TargetType= "Button" >
@@ -30,16 +41,26 @@
 
     <ContentPage.Content>
         <StackLayout >
+<<<<<<< HEAD
 
+=======
+           
+>>>>>>> master
             <StackLayout Padding="8,8,8,8" >
 
                 <Image Source="https://i.imgur.com/vMmW7ng.png"  WidthRequest="300" HeightRequest="300"  HorizontalOptions="CenterAndExpand" />
                 <Label Text="Hello there!" FontSize="28" FontAttributes="Bold"  HorizontalOptions="Start" Style="{StaticResource  labelStyle}"  />
                 <Label Text="Welcome to OrgAttend" FontSize="22"  HorizontalOptions="Start" Style="{StaticResource  labelStyle}" TextColor="Gray"/>
                 <Label Text="Are you an admin or a client?" FontSize="20" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Start" Style="{StaticResource  labelStyle}" />
+<<<<<<< HEAD
 
             </StackLayout>
             <StackLayout>
+=======
+                
+            </StackLayout>
+                <StackLayout>
+>>>>>>> master
                 <Button Text="I am an Admin" 
                         
                         
