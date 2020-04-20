@@ -4,33 +4,48 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-            
+           
+             
+             BackgroundColor="White"
              x:Class="FinalProject.NavPage">
+    
     <ContentPage.Resources>
         <!--NOTE: TempAdminLoginPage.xaml is in the views folder-->
+        
         <ResourceDictionary>
             <Style x:Key ="labelStyle" TargetType= "Label" >
                 <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="FontSize" Value="25"/>
+
                 
-                <Setter Property="FontFamily" Value="HelveticaNeue-Light"/>
             </Style>
 
             <Style x:Key ="buttonStyle" TargetType= "Button" >
-                <Setter Property="TextColor" Value="Black"/>
-                <Setter Property="BackgroundColor" Value="White"/>
-                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="TextColor" Value="Blue"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="FontSize" Value="18"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
     
     <ContentPage.Content>
-        <StackLayout Padding="8,8,8,8">
-            <Label Text="Welcome to OrgAttend!" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Style="{StaticResource  labelStyle}" />
-            <Label Text="Are you an admin or a client? " VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Style="{StaticResource  labelStyle}" />
-            <Image Source="https://d1i4t8bqe7zgj6.cloudfront.net/12-04-2019/t_a0f2857ef2a04a1ba5be0a03c6accf06_name_1___1920x1080___30p_00_00_09_20_Still014.jpg"/>
-            <Button Text="I am an Admin" VerticalOptions="Center" HorizontalOptions="Center" Clicked="AdminLoginClick"  />
-            <Button Text="I am a Client" VerticalOptions="Center" HorizontalOptions="Center" Clicked="ClientClick" />
+        <StackLayout >
+           
+            <StackLayout Padding="8,8,8,8" >
+
+                <Image Source="https://i.imgur.com/vMmW7ng.png"  WidthRequest="300" HeightRequest="300"  HorizontalOptions="CenterAndExpand" />
+                <Label Text="Hello there!" FontSize="28" FontAttributes="Bold"  HorizontalOptions="Start" Style="{StaticResource  labelStyle}"  />
+                <Label Text="Welcome to OrgAttend" FontSize="22"  HorizontalOptions="Start" Style="{StaticResource  labelStyle}" TextColor="Gray"/>
+                <Label Text="Are you an admin or a client?" FontSize="20" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Start" Style="{StaticResource  labelStyle}" />
+                
+            </StackLayout>
+                <StackLayout>
+                <Button Text="I am an Admin" 
+                        
+                        
+                        TextColor="Blue"  VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="LightBlue" Clicked="AdminLoginClick"  />
+                <Button Text="I am a Client"  TextColor="Blue"  VerticalOptions="Center" HorizontalOptions="Center" Clicked="ClientClick" BackgroundColor="LightBlue"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
