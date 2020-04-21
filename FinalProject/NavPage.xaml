@@ -4,8 +4,6 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-           
-             
              BackgroundColor="White"
              x:Class="FinalProject.NavPage">
     <ContentPage.Resources>
@@ -21,7 +19,7 @@
 
             <Style x:Key ="buttonStyle" TargetType= "Button" >
                 <Setter Property="TextColor" Value="Blue"/>
-                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="BackgroundColor" Value="White"/>
                 <Setter Property="FontSize" Value="18"/>
             </Style>
         </ResourceDictionary>
@@ -40,10 +38,11 @@
             </StackLayout>
             <StackLayout>
                 <Button Text="I am an Admin" 
-                        
+                        WidthRequest="400"
                         
                         TextColor="Blue"  VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="LightBlue" Clicked="AdminLoginClick"  />
-                <Button Text="I am a Client"  TextColor="Blue"  VerticalOptions="Center" HorizontalOptions="Center" Clicked="ClientClick" BackgroundColor="LightBlue"/>
+                <Button WidthRequest="400"
+                    Text="I am a Client"  TextColor="Blue"  VerticalOptions="Center" HorizontalOptions="Center" Clicked="ClientClick" BackgroundColor="LightBlue"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

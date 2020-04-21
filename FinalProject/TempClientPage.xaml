@@ -18,7 +18,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Temp Client Page" VerticalOptions="StartAndExpand"  HorizontalOptions="CenterAndExpand"  Style="{StaticResource  labelStyle}" />
-            <Button Text="RSVP for event" VerticalOptions="StartAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="RSVPClick" />
+            <Button Text="RSVP for event" VerticalOptions="StartAndExpand"  BackgroundColor="LightBlue" TextColor="DarkBlue" HorizontalOptions="CenterAndExpand" Clicked="RSVPClick" />
             
         </StackLayout>
     </ContentPage.Content>

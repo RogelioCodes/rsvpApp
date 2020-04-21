@@ -4,18 +4,25 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundColor="DarkGoldenrod"
+             BackgroundColor="White"
              x:Class="FinalProject.TempAdminPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Temp Admin Page" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
-            <Label Text="Please Select an option" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" TextColor="Black" />
+        <StackLayout VerticalOptions="Center">
+           
+            
             <Image Source=
-                   "https://cdn.lifehack.org/wp-content/uploads/2018/11/how-to-be-a-successful-businessman.jpeg"
-                   /> 
-            <Button Text="Make An event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="MakeEvent" />
-            <Button Text="Cancel an Event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="CancelEvent" />
-            <Button Text="Reschedule an Event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="RescheduleEvent" />
+                   "https://i.imgur.com/vMmW7ng.png" Aspect="Fill" WidthRequest="300" HeightRequest="300"  HorizontalOptions="CenterAndExpand"
+                   />
+            <Button WidthRequest="400"
+                    TextColor="Blue"  BackgroundColor="LightBlue" 
+                    Text="Create An Event" 
+                    VerticalOptions="Center" HorizontalOptions="Center" Clicked="MakeEvent" />
+            <Button WidthRequest="400"
+                    TextColor="Blue"  BackgroundColor="LightBlue" 
+                    Text="Cancel an Event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="CancelEvent" />
+            <Button WidthRequest="400"
+                    TextColor="Blue"  BackgroundColor="LightBlue"
+                    Text="Reschedule an Event" VerticalOptions="Center" HorizontalOptions="Center" Clicked="RescheduleEvent" />
             
         </StackLayout>
     </ContentPage.Content>
