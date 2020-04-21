@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             
+             BackgroundColor="LightBlue"
              mc:Ignorable="d"
              x:Class="FinalProject.TempAdminLoginPage">
 
@@ -11,22 +11,22 @@
         <ResourceDictionary>
             <Style x:Key ="labelStyle" TargetType= "Label" >
                 <Setter Property="TextColor" Value="Black"/>
-                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontSize" Value="24"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
         <!--references https://www.youtube.com/watch?reload=9&v=eAZ4kPf5eTc-->
-        <StackLayout>
-            <Label Text="Please enter your admin credentials" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" Style="{StaticResource  labelStyle}"/>
-            <Label x:Name="Lbl_Username" Text="Username" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
-            <Entry x:Name="Entry_Username" Placeholder="Enter UserName" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  BackgroundColor="LightYellow"  Margin="20,20,20,20" Padding="50, 75, 50, 75">
+            <Label Text="Login" FontAttributes="Bold" VerticalOptions="Start"  FontSize="30" HorizontalOptions="CenterAndExpand" Style="{StaticResource  labelStyle}"/>
+            <Label x:Name="Lbl_Username" Text="Username" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Gray" Style="{StaticResource  labelStyle}"/> 
+            <Entry x:Name="Entry_Username"  TextColor="Black" Placeholder="Enter UserName" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
 
-            <Label x:Name="Lbl_Password" Text="Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" Style="{StaticResource  labelStyle}" />
-            <Entry x:Name="Entry_Password" Placeholder="Enter Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="Lbl_Password" Text="Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Gray" Style="{StaticResource  labelStyle}" />
+            <Entry x:Name="Entry_Password" TextColor="Black" Placeholder="Enter Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
 
             <!--When Btn_signin_Clicked works, it saves the user credentials and will throw an error message if either the username or password is empty-->
-            <Button x:Name="Btn_Signin" Text="Sign In" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="Btn_Signin_Clicked"/> 
+            <Button x:Name="Btn_Signin" Text="Login"  BackgroundColor="LightBlue" TextColor="DarkBlue" VerticalOptions="CenterAndExpand" WidthRequest="200" HorizontalOptions="CenterAndExpand" Clicked="Btn_Signin_Clicked"/> 
             <!--<Button x:Name="Btn_Signin" Text="Sign In" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="AdminClick"/>-->
             <!-- <Button Text="This is placeholder until we have login functionality" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="AdminClick" />-->
         </StackLayout>
