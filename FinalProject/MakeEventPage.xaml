@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundColor="DarkGoldenrod"
+             BackgroundColor="LightBlue"
              x:Class="FinalProject.MakeEventPage">
     <!--
     <ContentPage.Content>
@@ -21,25 +21,28 @@
         </OnPlatform>
     </ContentPage.Padding>
 
-    <StackLayout Margin="0,40,0,0"  HorizontalOptions="Center">
-        <Label Text="Make Event Page"
-               FontSize="Large"
+    <StackLayout  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  BackgroundColor="LightYellow"  Margin="20,20,20,20" Padding="50, 75, 50, 75" >
+        <Label Text="When are you thinking?"
+               FontSize="24"
+               FontAttributes="Bold"
                Margin="0, 20"
+               TextColor="Black"
                HorizontalTextAlignment="Center"
                />
 
-        <Label Text="Start Date:"/>
+        <Label Text="Start Date:" FontSize="20" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Gray" />
 
-        <DatePicker x:Name="startDatePicker" Format="D" Margin="30, 0, 0, 30" />
-        
-        <Label Text="End Date:" />
+        <DatePicker x:Name="startDatePicker" Format="D"  Margin="30, 0, 0, 30"  />
+
+        <Label Text="End Date:"  FontSize="20" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Gray" />
 
         <DatePicker x:Name="endDatePicker" Format="D" Margin="30, 0, 0, 30" />
 
-        <Button x:Name="CheckBtn" BackgroundColor="White" Text="Check Availability :" Clicked="Handle_Clicked"/>
+        <Button x:Name="CheckBtn" BackgroundColor="LightBlue" TextColor="DarkBlue" Text="Check Availability" Clicked="Handle_Clicked"/>
         
         <Label x:Name="resultLabel" FontAttributes="Bold" HorizontalTextAlignment="Center"
-               Text="The Selected  start date is : "/>
+               Text="{Binding resultLabel.Text}"/>
+        
 
     </StackLayout>
 

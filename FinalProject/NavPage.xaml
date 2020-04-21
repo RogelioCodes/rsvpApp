@@ -30,10 +30,10 @@
 
             <StackLayout Padding="8,8,8,8" >
 
-                <Image Source="https://i.imgur.com/vMmW7ng.png"  WidthRequest="300" HeightRequest="300"  HorizontalOptions="CenterAndExpand" />
-                <Label Text="Hello there!" FontSize="28" FontAttributes="Bold"  HorizontalOptions="Start" Style="{StaticResource  labelStyle}"  />
-                <Label Text="Welcome to OrgAttend" FontSize="22"  HorizontalOptions="Start" Style="{StaticResource  labelStyle}" TextColor="Gray"/>
-                <Label Text="Are you an admin or a client?" FontSize="20" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Start" Style="{StaticResource  labelStyle}" />
+                <Image Source="https://i.imgur.com/vMmW7ng.png"  Aspect="Fill" WidthRequest="300" HeightRequest="300"   HorizontalOptions="CenterAndExpand" />
+                <Label Text="Hello there!" FontSize="28" FontAttributes="Bold"  HorizontalOptions="Center" Style="{StaticResource  labelStyle}"  />
+                <Label Text="Welcome to OrgAttend" FontSize="22"  HorizontalOptions="Center" Style="{StaticResource  labelStyle}" TextColor="Gray"/>
+                <Label Text="Are you an admin or a client?" FontSize="20" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Start" Style="{StaticResource  labelStyle}" />
 
             </StackLayout>
             <StackLayout>

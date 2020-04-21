@@ -36,8 +36,14 @@ namespace FinalProject
                 DateTime dateAndTime = DateTime.Now;
 
                 // Inside this you can pass the respose from the server with in the current range of month
-                resultLabel.Text = "The List of Available Seats " + dateAndTime.ToString("MM/dd/yyyy");
-
+                resultLabel.Text = dateAndTime.ToString("MM/dd/yyyy") + " is available!" ;
+                Button button = new Button
+                {
+                    Text = "Book date",
+                    VerticalOptions = LayoutOptions.CenterAndExpand,
+                    HorizontalOptions = LayoutOptions.Center,
+                   
+                };
             }
             else
             {
