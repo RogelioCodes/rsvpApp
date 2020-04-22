@@ -15,6 +15,7 @@ namespace FinalProject
             MainPage = new NavigationPage(new NavPage());
             //MainPage = new TempAdminLoginPage();
             //MainPage = new MainPage();
+            //testing
         }
 
         protected override void OnStart()
