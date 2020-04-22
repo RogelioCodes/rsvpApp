@@ -1639,24 +1639,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\invin\\.nuget\\packages\\": {},
+    "C:\\Users\\Rogelio\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject.iOS\\FinalProject.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject.iOS\\FinalProject.iOS.csproj",
       "projectName": "FinalProject.iOS",
-      "projectPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject.iOS\\FinalProject.iOS.csproj",
-      "packagesPath": "C:\\Users\\invin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject.iOS\\FinalProject.iOS.csproj",
+      "packagesPath": "C:\\Users\\Rogelio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\invin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rogelio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1670,8 +1670,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\FinalProject.csproj": {
-              "projectPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\FinalProject.csproj"
+            "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject\\FinalProject.csproj": {
+              "projectPath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject\\FinalProject.csproj"
             }
           }
         }

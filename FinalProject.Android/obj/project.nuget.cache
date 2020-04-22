@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U9eQxCoX2RY2VzQ1kKHZYQ5kSJb6PSF0OtqVUKpg3OxfYM7yPSwGMRCgFF6OIQZ00nhBU9jAQ8EJsqo3y6x1Jw==",
+  "dgSpecHash": "okXy27PDKyab1e6vN4iyUd6VBQwc7Vr5GIR874MF5P1SijTi/6m16DIjNz6o9VixOkfp7H/+UVbWVy2OOOWZDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject.Android\\FinalProject.Android.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,9 @@
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\1.1.13\\sqlitepclraw.lib.e_sqlite3.android.1.1.13.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3.android\\1.1.13\\sqlitepclraw.provider.e_sqlite3.android.1.1.13.nupkg.sha512",
+    "C:\\Users\\Rogelio\\.nuget\\packages\\syncfusion.licensing\\18.1.0.45\\syncfusion.licensing.18.1.0.45.nupkg.sha512",
+    "C:\\Users\\Rogelio\\.nuget\\packages\\syncfusion.xamarin.core\\18.1.0.45\\syncfusion.xamarin.core.18.1.0.45.nupkg.sha512",
+    "C:\\Users\\Rogelio\\.nuget\\packages\\syncfusion.xamarin.sfschedule\\18.1.0.45\\syncfusion.xamarin.sfschedule.18.1.0.45.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

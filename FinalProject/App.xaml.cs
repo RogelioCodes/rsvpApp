@@ -1,4 +1,5 @@
 ﻿using FinalProject.Data;
+using FinalProject.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,9 +13,9 @@ namespace FinalProject
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new NavPage());
+            //MainPage = new NavigationPage(new NavPage());
             //MainPage = new TempAdminLoginPage();
-            //MainPage = new MainPage();
+            MainPage = new CurrentWeatherPage();
             //testing
         }
 

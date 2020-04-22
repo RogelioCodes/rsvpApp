@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "miq7z1yUtOPev+XMGk4iguHd3sMMNdTVGwEV+woLiDFItrqd9hsjUW56pHyoPCRVvC3u5KmChIrR0RHRan07bw==",
+  "dgSpecHash": "V9tJimvq8uV31FD67j0sphldXUYkctO/egx+ooRtgseg29hISkLvpwusxCRYpLgOJ49Qsg+ZwuZkqLOPul3/QA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject.iOS\\FinalProject.iOS.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,9 @@
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.provider.sqlite3.ios_unified\\1.1.13\\sqlitepclraw.provider.sqlite3.ios_unified.1.1.13.nupkg.sha512",
+    "C:\\Users\\Rogelio\\.nuget\\packages\\syncfusion.licensing\\18.1.0.45\\syncfusion.licensing.18.1.0.45.nupkg.sha512",
+    "C:\\Users\\Rogelio\\.nuget\\packages\\syncfusion.xamarin.core\\18.1.0.45\\syncfusion.xamarin.core.18.1.0.45.nupkg.sha512",
+    "C:\\Users\\Rogelio\\.nuget\\packages\\syncfusion.xamarin.sfschedule\\18.1.0.45\\syncfusion.xamarin.sfschedule.18.1.0.45.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\xamarin.forms\\4.3.0.908675\\xamarin.forms.4.3.0.908675.nupkg.sha512"
