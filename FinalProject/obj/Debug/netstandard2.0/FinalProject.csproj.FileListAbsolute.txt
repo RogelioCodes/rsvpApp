@@ -25,7 +25,6 @@ C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\bin\Debug\netstan
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\FinalProject.csprojAssemblyReference.cache
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\CancelEventPage.xaml.g.cs
-C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\MakeEventPage.xaml.g.cs
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\NavPage.xaml.g.cs
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\RescheduleEventPage.xaml.g.cs
@@ -41,3 +40,4 @@ C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstan
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\ref\FinalProject.dll
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\FinalProject.pdb
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\Views\CurrentWeatherPage.xaml.g.cs
