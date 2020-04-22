@@ -32,12 +32,12 @@ C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstan
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\TempAdminPage.xaml.g.cs
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\TempClientPage.xaml.g.cs
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\Views\TempAdminLoginPage.xaml.g.cs
-C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\FinalProject.csproj.CoreCompileInputs.cache
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\FinalProject.AssemblyInfoInputs.cache
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\FinalProject.AssemblyInfo.cs
-C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\FinalProject.dll
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\ref\FinalProject.dll
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\FinalProject.pdb
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\Views\CurrentWeatherPage.xaml.g.cs
+C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp

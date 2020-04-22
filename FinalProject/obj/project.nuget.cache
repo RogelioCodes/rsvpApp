@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pPg9wqtsONexxdGTc1mAvFUAILeG6l/MpMT4IkvN2kmiFglCK25FJxh4tNkw5pkz/CW56FqtGih4bHyaD036JQ==",
+  "dgSpecHash": "IxEg89XLxEHms0mEwbB3KkKs8LZy2sQXA2Xtxd6Bw+PF9F5FsmYYvGPH2BhVufppCKHzij1Lv9StGpKFKYmgpA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject\\FinalProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rogelio\\.nuget\\packages\\formspinview\\2.0.0\\formspinview.2.0.0.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Rogelio\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",

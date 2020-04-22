@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "V9tJimvq8uV31FD67j0sphldXUYkctO/egx+ooRtgseg29hISkLvpwusxCRYpLgOJ49Qsg+ZwuZkqLOPul3/QA==",
+  "dgSpecHash": "8Cjb9lVhbkoymvaIDEo0DZkOCSqvUEs+sV4uOSrsPGa0yIP8yCMOZ/qoqeuZ6SpBB56F9MupnZd2NU+InmlZ0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject.iOS\\FinalProject.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rogelio\\.nuget\\packages\\formspinview\\2.0.0\\formspinview.2.0.0.nupkg.sha512",
+    "C:\\Users\\Rogelio\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",

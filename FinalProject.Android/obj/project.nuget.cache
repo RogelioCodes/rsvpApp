@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "okXy27PDKyab1e6vN4iyUd6VBQwc7Vr5GIR874MF5P1SijTi/6m16DIjNz6o9VixOkfp7H/+UVbWVy2OOOWZDg==",
+  "dgSpecHash": "D+Bdg6AHKePxTE4J1c0cNJDeo8HiFVYcPLhwka+0SvPAKbQvW3azEPOl44D8baKq2k339TbZzMplNB9eVI+ayg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject.Android\\FinalProject.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rogelio\\.nuget\\packages\\formspinview\\2.0.0\\formspinview.2.0.0.nupkg.sha512",
+    "C:\\Users\\Rogelio\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
     "C:\\Users\\Rogelio\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
