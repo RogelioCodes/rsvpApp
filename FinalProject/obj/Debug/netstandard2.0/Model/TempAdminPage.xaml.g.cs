@@ -13,7 +13,7 @@
 namespace FinalProject {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Model/TempAdminPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Model\\TempAdminPage.xaml")]
     public partial class TempAdminPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
