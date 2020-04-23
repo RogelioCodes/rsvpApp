@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
              mc:Ignorable="d"
              x:Class="FinalProject.TempClientPage">
 
@@ -17,9 +18,46 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Temp Client Page" VerticalOptions="StartAndExpand"  HorizontalOptions="CenterAndExpand"  Style="{StaticResource  labelStyle}" />
-            <Button Text="RSVP for event" VerticalOptions="StartAndExpand"  BackgroundColor="LightBlue" TextColor="DarkBlue" HorizontalOptions="CenterAndExpand" Clicked="RSVPClick" />
-            
+        <StackLayout VerticalOptions="FillAndExpand">
+            <controls:Calendar Padding="10,0,10,0"   
+                   SelectedBorderWidth="3"   
+                   DisabledBorderColor="Black"  
+                   ShowNumberOfWeek="false"  
+                   StartDay="Monday"  
+                   TitleLabelTextColor="Black"  
+                   TitleLeftArrowTextColor="Black"
+                   TitleRightArrowTextColor="Black"
+                   SelectedDate="{Binding Date}"  
+                   SpecialDates="{Binding Attendances}"  
+                   DateCommand="{Binding DateChosen}"/>
+        </StackLayout>
+        <StackLayout>
+
+            <Button Text="RSVP for a new event" VerticalOptions="StartAndExpand"  BackgroundColor="LightBlue" TextColor="DarkBlue" HorizontalOptions="CenterAndExpand" Clicked="RSVPClick" />
+
+            <ListView x:Name="AttendanceListView" ItemsSource="{Binding Attendances}" SeparatorVisibility="None"
+                   Margin="10,0" VerticalOptions="FillAndExpand" HorizontalOptions="Start">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BackgroundColor="White" BorderColor="#F0F0F0" Padding="5" Margin="0,0,0,5" HasShadow="False">
+                            <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" Text="{Binding DisplayName}" TextColor="#757575" FontSize="12" VerticalOptions="Center" Margin="20,0"/>
+                                <Label Grid.Column="1" Text="{Binding DisplayDate}" TextColor="#757575" FontSize="12" VerticalOptions="Center" Margin="20,0"/>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+        </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

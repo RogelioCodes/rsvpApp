@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[18.1.0.45, )"
             },
+            "XamForms.Controls.Calendar": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
@@ -124,6 +128,10 @@
             "Syncfusion.Xamarin.SfSchedule": {
               "target": "Package",
               "version": "[18.1.0.45, )"
+            },
+            "XamForms.Controls.Calendar": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

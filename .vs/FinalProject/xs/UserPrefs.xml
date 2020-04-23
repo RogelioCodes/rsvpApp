@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{BC4F90B6-BE84-468A-A11B-C9B69ED7A50E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject/TempClientPage.xaml">
+    <Files>
+      <File FileName="FinalProject/NavPage.xaml" Line="51" Column="15" />
+      <File FileName="FinalProject/NavPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FinalProject/TempAdminPage.xaml" Line="1" Column="1" />
+      <File FileName="FinalProject/Views/TempAdminLoginPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FinalProject/Model/Calendar.cs" Line="40" Column="14" />
+      <File FileName="FinalProject/TempClientPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FinalProject" expanded="True">
+            <Node name="FinalProject" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Helper" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="TempClientPage.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FinalProject.Android PreferredExecutionTarget="Android.pixel_3_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

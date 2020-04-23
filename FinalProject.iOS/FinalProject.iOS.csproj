@@ -136,11 +136,14 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="XamForms.Controls.Calendar">
+      <Version>1.1.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\FinalProject\FinalProject.csproj">
-      <Project>{6DBC7CDD-6023-40FF-92CD-044AC4AE2969}</Project>
+      <Project>{A746DBF7-6F58-481E-B448-6BE5A92E9D65}</Project>
       <Name>FinalProject</Name>
     </ProjectReference>
   </ItemGroup>

@@ -920,6 +920,20 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "XamForms.Controls.Calendar/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/MonoAndroid10/XamForms.Controls.Calendar.Droid.dll": {},
+          "lib/MonoAndroid10/XamForms.Controls.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/XamForms.Controls.Calendar.Droid.dll": {},
+          "lib/MonoAndroid10/XamForms.Controls.Calendar.dll": {}
+        }
+      },
       "FinalProject/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -927,6 +941,7 @@
           "FormsPinView": "2.0.0",
           "Newtonsoft.Json": "12.0.3",
           "Syncfusion.Xamarin.SfSchedule": "18.1.0.45",
+          "XamForms.Controls.Calendar": "1.1.1",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675",
           "sqlite-net-pcl": "1.6.292"
@@ -2289,6 +2304,30 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "XamForms.Controls.Calendar/1.1.1": {
+      "sha512": "GCydwm9HO+8V4iGVsGJZtnHJaqIpjas40BSRU+T7lIM7E4nZ7pOn2Ifzu0Y6MLrZJuqCHFeroOWjJSfOjZIyyw==",
+      "type": "package",
+      "path": "xamforms.controls.calendar/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.Droid.dll",
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.UWP.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/XamForms.Controls.Calendar.dll",
+        "lib/win81/XamForms.Controls.Calendar.Windows.dll",
+        "lib/win81/XamForms.Controls.Calendar.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.WinPhone.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.dll",
+        "xamforms.controls.calendar.1.1.1.nupkg.sha512",
+        "xamforms.controls.calendar.nuspec"
+      ]
+    },
     "FinalProject/1.0.0": {
       "type": "project",
       "path": "../FinalProject/FinalProject.csproj",
@@ -2301,6 +2340,7 @@
       "FormsPinView >= 2.0.0",
       "Newtonsoft.Json >= 12.0.3",
       "Syncfusion.Xamarin.SfSchedule >= 18.1.0.45",
+      "XamForms.Controls.Calendar >= 1.1.1",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675",
       "sqlite-net-pcl >= 1.6.292"
@@ -2352,6 +2392,10 @@
           "Syncfusion.Xamarin.SfSchedule": {
             "target": "Package",
             "version": "[18.1.0.45, )"
+          },
+          "XamForms.Controls.Calendar": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
