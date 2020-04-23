@@ -4,7 +4,6 @@ C:\Users\invin\source\repos\FinalProject\FinalProject\bin\Debug\netstandard2.0\r
 C:\Users\invin\source\repos\FinalProject\FinalProject\bin\Debug\netstandard2.0\FinalProject.pdb
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.csprojAssemblyReference.cache
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\NavPage.xaml.g.cs
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\TempAdminPage.xaml.g.cs
 C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\FinalProject.AssemblyInfoInputs.cache
@@ -41,3 +40,5 @@ C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\X
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\Views\CurrentWeatherPage.xaml.g.cs
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\FinalProject.csproj.CoreCompileInputs.cache
 C:\Users\Rogelio\source\repos\final\tempfinalproj\FinalProject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\invin\source\repos\FinalProject\FinalProject\obj\Debug\netstandard2.0\Views\CurrentWeatherPage.xaml.g.cs

@@ -20,7 +20,7 @@ namespace FinalProject
         void AdminClick(object sender, System.EventArgs e)
         {
             DisplayAlert("Login", "Login Successful", "ok");
-            Navigation.PushAsync(new TempAdminPage());
+            Navigation.PushModalAsync(new TempAdminPage());
         }
         // this worked one day, then the next it didn't
         //To clarify, this button function sometimes throws an exception error that breaks the app
@@ -31,7 +31,7 @@ namespace FinalProject
             {
                 DisplayAlert("Login", "Login Successful", "ok");
                // App.UserDatabase.SaveUser(user); keep this commented out, it worked one day, then the next it throws an exception error that breaks the app
-                Navigation.PushAsync(new TempAdminPage());
+                Navigation.PushModalAsync(new TempAdminPage());
             }
             else
             {

@@ -19,7 +19,7 @@ namespace FinalProject
 
         private void RSVPClick(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new RSVPPage());
+            Navigation.PushModalAsync(new RSVPPage());
         }
         //  protected override void OnAppearing()
         //{

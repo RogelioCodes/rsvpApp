@@ -19,12 +19,12 @@ namespace FinalProject
 
         void AdminLoginClick(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new TempAdminLoginPage());
+            Navigation.PushModalAsync(new TempAdminLoginPage());
         }
        
         void ClientClick(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new TempClientPage());
+            Navigation.PushModalAsync(new TempClientPage());
         }
     }
 }

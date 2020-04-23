@@ -24,17 +24,17 @@ namespace FinalProject
 
         private void MakeEvent(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MakeEventPage());
+            Navigation.PushModalAsync(new MakeEventPage());
         }
 
         private void CancelEvent(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new CancelEventPage());
+            Navigation.PushModalAsync(new CancelEventPage());
         }
 
         private void RescheduleEvent(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new RescheduleEventPage());
+            Navigation.PushModalAsync(new RescheduleEventPage());
         }
     }
 }

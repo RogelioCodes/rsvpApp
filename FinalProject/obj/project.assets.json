@@ -890,23 +890,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rogelio\\.nuget\\packages\\": {},
+    "C:\\Users\\invin\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject\\FinalProject.csproj",
+      "projectUniqueName": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\FinalProject.csproj",
       "projectName": "FinalProject",
-      "projectPath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject\\FinalProject.csproj",
-      "packagesPath": "C:\\Users\\Rogelio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rogelio\\source\\repos\\final\\tempfinalproj\\FinalProject\\obj\\",
+      "projectPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\FinalProject.csproj",
+      "packagesPath": "C:\\Users\\invin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rogelio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\invin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -972,7 +972,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
