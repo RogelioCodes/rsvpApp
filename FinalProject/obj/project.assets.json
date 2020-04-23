@@ -927,24 +927,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/olaf/.nuget/packages/": {}
+    "C:\\Users\\invin\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/olaf/Projects/tempfinalproj/FinalProject/FinalProject.csproj",
+      "projectUniqueName": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\FinalProject.csproj",
       "projectName": "FinalProject",
-      "projectPath": "/Users/olaf/Projects/tempfinalproj/FinalProject/FinalProject.csproj",
-      "packagesPath": "/Users/olaf/.nuget/packages/",
-      "outputPath": "/Users/olaf/Projects/tempfinalproj/FinalProject/obj/",
+      "projectPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\FinalProject.csproj",
+      "packagesPath": "C:\\Users\\invin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/olaf/.config/NuGet/NuGet.Config"
+        "C:\\Users\\invin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1006,7 +1013,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   },

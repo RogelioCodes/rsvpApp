@@ -13,7 +13,7 @@
 namespace FinalProject.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/CurrentWeatherPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CurrentWeatherPage.xaml")]
     public partial class CurrentWeatherPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

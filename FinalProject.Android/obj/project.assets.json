@@ -2347,32 +2347,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/olaf/.nuget/packages/": {}
+    "C:\\Users\\invin\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/olaf/Projects/tempfinalproj/FinalProject.Android/FinalProject.Android.csproj",
+      "projectUniqueName": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject.Android\\FinalProject.Android.csproj",
       "projectName": "FinalProject.Android",
-      "projectPath": "/Users/olaf/Projects/tempfinalproj/FinalProject.Android/FinalProject.Android.csproj",
-      "packagesPath": "/Users/olaf/.nuget/packages/",
-      "outputPath": "/Users/olaf/Projects/tempfinalproj/FinalProject.Android/obj/",
+      "projectPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject.Android\\FinalProject.Android.csproj",
+      "packagesPath": "C:\\Users\\invin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/olaf/.config/NuGet/NuGet.Config"
+        "C:\\Users\\invin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/olaf/Projects/tempfinalproj/FinalProject/FinalProject.csproj": {
-              "projectPath": "/Users/olaf/Projects/tempfinalproj/FinalProject/FinalProject.csproj"
+            "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\FinalProject.csproj": {
+              "projectPath": "C:\\Users\\invin\\source\\repos\\FinalProject\\FinalProject\\FinalProject.csproj"
             }
           }
         }
