@@ -29,7 +29,9 @@
         <StackLayout >
 
             <StackLayout Padding="8,8,8,8" >
-
+            <Frame HasShadow="True" CornerRadius="10" Padding="10,10,10,10" Margin="25, 0, 0, 0" HorizontalOptions="End">
+                <Label Text="Click here to check &#10; weather for your event!" FontSize="18" FontAttributes="Italic"  HorizontalTextAlignment="End" HorizontalOptions="End"  />
+            </Frame>
                 <Image Source="https://i.imgur.com/vMmW7ng.png"  Aspect="Fill" WidthRequest="300" HeightRequest="300"   HorizontalOptions="CenterAndExpand" />
                 <Label Text="Hello there!" FontSize="28" FontAttributes="Bold"  HorizontalOptions="Center" Style="{StaticResource  labelStyle}"  />
                 <Label Text="Welcome to OrgAttend" FontSize="22"  HorizontalOptions="Center" Style="{StaticResource  labelStyle}" TextColor="Gray"/>

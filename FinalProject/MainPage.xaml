@@ -6,10 +6,15 @@
              mc:Ignorable="d"
              xmlns:local="clr-namespace:FinalProject" x:Class="FinalProject.MainPage"
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-            xmlns:local1="clr-namespace:FinalProject.Views"
-            android:TabbedPage.ToolbarPlacement="Bottom">
-    <local:NavPage></local:NavPage>
-    <local1:CurrentWeatherPage></local1:CurrentWeatherPage>
+            xmlns:local1="clr-namespace:FinalProject.Views">
+    <local:NavPage Title="OrgAttend" />
+
+    <NavigationPage Title="Weather">
+        <x:Arguments>
+            <local1:CurrentWeatherPage />
+        </x:Arguments>
+    </NavigationPage>
+    
     <!--Just replace the TempClientPage in here like <local:WeatherPage></local:WeatherPage-->
     
 </TabbedPage>

@@ -23,7 +23,7 @@
             <Entry x:Name="Entry_Username"  TextColor="Black" Placeholder="Enter UserName" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
 
             <Label x:Name="Lbl_Password" Text="Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand" TextColor="Gray" Style="{StaticResource  labelStyle}" />
-            <Entry x:Name="Entry_Password" TextColor="Black" Placeholder="Enter Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
+            <Entry x:Name="Entry_Password" IsPassword="true" TextColor="Black" Placeholder="Enter Password" VerticalOptions="Start"  HorizontalOptions="CenterAndExpand"/>
 
             <!--When Btn_signin_Clicked works, it saves the user credentials and will throw an error message if either the username or password is empty-->
             <Button x:Name="Btn_Signin" Text="Login"  BackgroundColor="LightBlue" TextColor="DarkBlue" VerticalOptions="CenterAndExpand" WidthRequest="200" HorizontalOptions="CenterAndExpand" Clicked="Btn_Signin_Clicked"/> 
