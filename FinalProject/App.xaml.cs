@@ -17,7 +17,7 @@ namespace FinalProject
             //MainPage = new TempAdminLoginPage();
             //MainPage = new CurrentWeatherPage();
             MainPage = new MainPage();
-            //testing
+            //testing once again
         }
 
         protected override void OnStart()
