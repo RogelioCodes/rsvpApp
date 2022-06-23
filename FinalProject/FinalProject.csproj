@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="FormsPinView" Version="2.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
     <PackageReference Include="Syncfusion.Xamarin.SfSchedule" Version="18.1.0.45" />
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
